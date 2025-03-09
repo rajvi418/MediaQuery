@@ -45,7 +45,6 @@ body
 .p-0
 {
     padding: 0;
-    border: 1px solid green;
 }
 .container
 {
@@ -106,23 +105,25 @@ img
 }
 .images .house-img
 {
-    height: 300px;
-    /* border: 1px solid rgb(187, 187, 187); */
+    height: 322px;
 }
 .images .house-img img
 {
     height: 100%;
     width: 100%;
+    padding: 3px;
+    padding-bottom: 0;
     object-fit: cover;
     border-radius: 10px;
-}
-.image .others-img
-{
-    gap: 1px;
 }
 .images .others-img img
 {
     width: 100%;
+    padding: 3px 3px 0px 3px;
     object-fit: cover;
     border-radius: 10px;
+}
+.d-none
+{
+    display: none;
 }
