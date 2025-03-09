@@ -46,11 +46,24 @@ body
 {
     padding: 0;
 }
+.p-2
+{
+    padding: 2px;
+}
+.plr-2
+{
+    padding: 0px 2px;
+}
 .container
 {
     max-width: 1360px;
     margin: auto;
     padding: 30px;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
 }
 img
 {
@@ -103,11 +116,6 @@ img
     font-weight: 900;
     cursor: pointer;
 }
-/* .images .house-img
-{
-    height: 322px;
-    object-fit: cover;
-}
 .images .house-img img
 {
     height: 100%;
@@ -117,7 +125,13 @@ img
     object-fit: cover;
     border-radius: 10px;
 }
-.images .others-img img
+.images .others-img 
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* .images .others-img img
 {
     width: 100%;
     padding: 3px 3px 0px 3px;
