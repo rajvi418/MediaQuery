@@ -80,19 +80,20 @@
 }
 
 
-@media (min-width:992px) and (max-width:1199px) {
+@media (max-width:1199px) {
     .house-img{
         height: 150px;
     }
-    .images-1
+    /* .images-1
     {
         display:flex;
         flex-direction: row;
-        width: 245px;
+        width: fit-content;
         padding: 2px;
     }
     .images-2
     {
         display: none;
-    }
+    } */
 }
+

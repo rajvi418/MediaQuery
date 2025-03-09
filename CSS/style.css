@@ -48,9 +48,9 @@ body
 }
 .container
 {
+    max-width: 1360px;
     margin: auto;
     padding: 30px;
-    max-width: 1360px;
 }
 img
 {
@@ -103,9 +103,10 @@ img
     font-weight: 900;
     cursor: pointer;
 }
-.images .house-img
+/* .images .house-img
 {
     height: 322px;
+    object-fit: cover;
 }
 .images .house-img img
 {
@@ -122,8 +123,4 @@ img
     padding: 3px 3px 0px 3px;
     object-fit: cover;
     border-radius: 10px;
-}
-.d-none
-{
-    display: none;
-}
+} */
